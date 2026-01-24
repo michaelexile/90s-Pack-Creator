@@ -34,8 +34,6 @@ export function App() {
     <div className="max-w-7xl mx-auto text-center relative z-10">
       <h1 className="visually-hidden">PERK CREATOR</h1>
 
-      
-
       <div className="flex justify-center items-center gap-8 mb-8">
         <img
           src={bgImage}
@@ -45,12 +43,13 @@ export function App() {
       </div>
 
       <div className="mb-8">
-        <button 
+        <button
           className="text-white font-bold py-2 px-4 rounded"
           onClick={() => {
-            const instructions = document.getElementById('instructions');
+            const instructions = document.getElementById("instructions");
             if (instructions) {
-              instructions.style.display = instructions.style.display === 'none' ? 'block' : 'none';
+              instructions.style.display =
+                instructions.style.display === "none" ? "block" : "none";
             }
           }}
         >
@@ -58,27 +57,40 @@ export function App() {
         </button>
       </div>
 
-      <div id="instructions" style={{ display: 'none' }} className="max-w-2xl mx-auto mb-8 p-6 bg-gray-800 rounded-lg text-left">
-        <h3 className="text-xl font-bold mb-4 text-pink-400">How to Use This Tool</h3>
+      <div
+        id="instructions"
+        style={{ display: "none" }}
+        className="max-w-2xl mx-auto mb-8 p-6 bg-gray-800 rounded-lg text-left"
+      >
+        <h3 className="text-xl font-bold mb-4 text-pink-400">
+          How to Use This Tool
+        </h3>
         <ol className="space-y-2 text-gray-200">
-          <li>Before you start: There is a full pack available in the{" "}
-          <a 
-            href="https://nightlight.gg/packs/90s-perk-pack" 
-            className="text-pink-400 hover:text-pink-300"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            90s Pack Download
-          </a> on NightLight. Use this tool for missing icons if I have not already updated the pack.</li>
-          <li>1. Select the type of icon you want to create (Perk, Item, Addon, or Offering)</li>
+          <li>
+            Before you start: There is a full pack available in the{" "}
+            <a
+              href="https://nightlight.gg/packs/90s-perk-pack"
+              className="text-pink-400 hover:text-pink-300"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              90s Pack Download
+            </a>{" "}
+            on NightLight. Use this tool for missing icons if I have not already
+            updated the pack.
+          </li>
+          <li>
+            1. Select the type of icon you want to create (Perk, Item, Addon, or
+            Offering)
+          </li>
           <li>2. Upload your PNG image(s) using the upload button</li>
           <li>3. Wait for the processing to complete</li>
           <li>4. Download your customized icons!</li>
         </ol>
         <p className="mt-4 text-gray-400 italic">
           Note: You can get blank icons from{" "}
-          <a 
-            href="https://nightlight.gg/packs/default-icons-no-shadow" 
+          <a
+            href="https://nightlight.gg/packs/default-icons-no-shadow"
             className="text-pink-400 hover:text-pink-300"
             target="_blank"
             rel="noopener noreferrer"
@@ -239,7 +251,7 @@ export function App() {
         <IconDisplay files={canvasURLs} />
       </div>
 
-     <Footer/>
+      <Footer />
     </div>
   );
 }
