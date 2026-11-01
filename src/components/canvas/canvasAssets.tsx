@@ -51,6 +51,7 @@ export const canvasAssets = {
       rare: addonBlueBG,
       very_rare: addonPurpleBG,
       visceral: addonPinkBG,
+      ultra_rare: addonPinkBG,
       event: addonEventBG
     },
     gradients: {
@@ -59,6 +60,7 @@ export const canvasAssets = {
       rare: addonBlueGrad,
       very_rare: addonPurpleGrad,
       visceral: addonPinkGrad,
+      ultra_rare: addonPinkGrad,
       event: addonEventGrad
     }
   },
@@ -69,6 +71,7 @@ export const canvasAssets = {
       rare: itemBlueBG,
       very_rare: itemPurpleBG,
       visceral: itemPinkBG,
+      ultra_rare: itemPinkBG,
       event: itemEventBG
     },
     gradients: {
@@ -77,6 +80,7 @@ export const canvasAssets = {
       rare: itemBlueGrad,
       very_rare: itemPurpleGrad,
       visceral: itemPinkGrad,
+      ultra_rare: itemPinkGrad,
       event: itemEventGrad,
     }
   },
@@ -87,6 +91,7 @@ export const canvasAssets = {
       rare: offeringBlueBG,
       very_rare: offeringPurpleBG,
       visceral: offeringPinkBG,
+      ultra_rare: offeringPinkBG,
       event: offeringEventBG,
     },
     gradients: {
@@ -95,6 +100,7 @@ export const canvasAssets = {
       rare: offeringBlueGrad,
       very_rare: offeringPurpleGrad,
       visceral: offeringPinkGrad,
+      ultra_rare: offeringPinkGrad,
       event: offeringEventGrad,
     }
   }
