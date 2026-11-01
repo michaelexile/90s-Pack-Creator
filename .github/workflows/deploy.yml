@@ -21,6 +21,12 @@ jobs:
         with:
           bun-version: latest
 
+      - name: Clear build cache
+        run: |
+          bun pm cache rm || true
+          rm -rf node_modules/.cache dist || true
+
+
       - name: Install dependencies
         run: bun install
 
