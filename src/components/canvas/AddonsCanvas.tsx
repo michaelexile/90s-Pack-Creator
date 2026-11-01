@@ -252,14 +252,14 @@ function addIcon(
                 : rarity === "uncommon" ? addonGreenBG //uncommon is green
                 : rarity === "rare" ? addonBlueBG //rare is blue
                 : rarity === "very_rare" ? addonPurpleBG //very rare is purple
-                : rarity === "ultra_rare" ? addonPinkBG //ultra rare is pink
+                : rarity === "visceral" ? addonPinkBG //ultra rare is pink
                 : addonEventBG;
 
                 addonGrad = rarity === "common" ? addonBrownGrad
                 : rarity === "uncommon" ? addonGreenGrad //uncommon is green
                 : rarity === "rare" ? addonBlueGrad //rare is blue
                 : rarity === "very_rare" ? addonPurpleGrad //very rare is purple
-                : rarity === "ultra_rare" ? addonPinkGrad //ultra rare is pink
+                : rarity === "visceral" ? addonPinkGrad //ultra rare is pink
                 : addonEventGrad;
   }
 

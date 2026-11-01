@@ -246,14 +246,14 @@ function addIcon(
                 : rarity === "uncommon" ? offeringBG
                 : rarity === "rare" ? offeringBG
                 : rarity === "very_rare" ? offeringBG
-                : rarity === "ultra_rare" ? offeringBG
+                : rarity === "visceral" ? offeringBG
                 : offeringBG;
 
                 addonGrad = rarity === "common" ? offeringBrownGrad
                 : rarity === "uncommon" ? offeringGreenGrad //uncommon is green
                 : rarity === "rare" ? offeringBlueGrad //rare is blue
                 : rarity === "very_rare" ? offeringPurpleGrad //very rare is purple
-                : rarity === "ultra_rare" ? offeringPinkGrad //ultra rare is pink
+                : rarity === "visceral" ? offeringPinkGrad //ultra rare is pink
                 : offeringEventGrad;
   }
 
